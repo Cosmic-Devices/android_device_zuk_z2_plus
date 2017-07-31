@@ -131,7 +131,6 @@ BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/gesture_on"
 
 # CNE and DPM
-TARGET_LDPRELOAD := libNimsWrap.so
 BOARD_USES_QCNE := true
 
 # Crypto
