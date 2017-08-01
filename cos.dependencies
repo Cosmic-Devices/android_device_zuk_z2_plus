@@ -1,0 +1,20 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "SubhrajyotiSen/android_kernel_zuk_z2",
+    "target_path": "kernel/zuk/msm8996",
+    "branch":      "n7x-caf"
+  },
+  {
+    "remote":      "github",
+    "repository":  "YaroST12/zuk_z2_plus_vendor",
+    "target_path": "vendor/zuk/z2_plus",
+    "branch":      "n7x-caf"
+  }
+]
