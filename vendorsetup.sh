@@ -1,3 +1,3 @@
-add_lunch_combo cos_z2_plus-user
-add_lunch_combo cos_z2_plus-userdebug
-add_lunch_combo cos_z2_plus-eng
+add_lunch_combo candy_z2_plus-user
+add_lunch_combo candy_z2_plus-userdebug
+add_lunch_combo candy_z2_plus-eng
