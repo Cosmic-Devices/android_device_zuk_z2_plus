@@ -149,6 +149,12 @@ persist.data.df.dev_name=rmnet_usb0
 # TimeService
 persist.timed.enable=true
 
+# Assertive Display
+ro.qcom.ad=1
+ro.qcom.ad.calib.data=/system/etc/ad_calib.cfg
+ro.qcom.ad.sensortype=2
+ro.qualcomm.cabl=0
+
 # ADB
 ro.adb.secure=0
 ro.secure=0

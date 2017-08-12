@@ -103,6 +103,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml 
 
+
+PRODUCT_COPY_FILES +=  \
+    $(LOCAL_PATH)/audio/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf
+
+# Assertive Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/ad_calib.cfg:system/etc/ad_calib.cfg
+
 # Camera
 PRODUCT_PACKAGES += \
     SnapdragonCamera
