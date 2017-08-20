@@ -173,3 +173,5 @@ dalvik.vm.dex2oat-threads=4
 dalvik.vm.image-dex2oat-threads=4
 debug.generate-debug-info=false
 
+# SafetyNet
+ro.boot.verifiedbootstate=green
